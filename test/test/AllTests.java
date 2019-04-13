@@ -6,7 +6,7 @@ import junit.framework.TestSuite;
 
 public class AllTests extends TestCase {
 
-	public static Test suite() {
+	public static Test mySuite() {
 		TestSuite suite = new TestSuite("Test for default package");
 		System.out.println ("Test for default package");
 		//$JUnit-BEGIN$
